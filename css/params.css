@@ -1,0 +1,87 @@
+
+div.constructor div.params {
+    flex: 1 1 auto;
+    position: relative;
+    height: var(--constructor-height);
+    padding: 0 43px;
+}
+
+div.params div.side {
+    position: absolute;
+    top: 30px;
+    width: calc(100% - 86px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition-duration: .3s;
+}
+div.params div.side p {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+div.params div.part {
+    display: flex;
+    flex-direction: row;
+}
+
+
+div.params div.medal {
+    width: var(--small-medal-size);
+    height: var(--small-medal-size);
+
+    background-color: #fff6e2;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+div.params div.part div.medal div.inner {
+    width: calc(var(--small-medal-size) - 35px);
+    height: calc(var(--small-medal-size) - 35px);
+
+    background-color: antiquewhite;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: repeating-linear-gradient(
+        45deg,
+        #fff6e2,
+        #fff6e2 4px,
+        #ffe49d 4px,
+        #ffe49d 8px
+    );
+    border: 5px solid #ffe49d;
+}
+div.params div.outer div.medal {
+    background: repeating-linear-gradient(
+        45deg,
+        #fff6e2,
+        #fff6e2 4px,
+        #ffe49d 4px,
+        #ffe49d 8px
+    );
+    border: 5px solid #ffe49d;
+    box-sizing: border-box;
+}
+div.params div.outer div.medal::after {
+    content: "";
+    border: 5px solid #ffe49d;
+    background-color: #fff6e2;
+
+    width: calc(var(--small-medal-size) - 35px);
+    height: calc(var(--small-medal-size) - 35px);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+
+}

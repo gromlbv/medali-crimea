@@ -1,0 +1,69 @@
+div.viewer-wrapper {
+    height: 100%;
+    padding: 0 40px;
+    position: relative;
+    border-right: 3px solid #a6a6a6;
+
+    display: flex;
+    align-items: center;
+}
+
+div.viewer-wrapper p {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-weight: bold;
+}
+
+div.viewer {
+    width: var(--medal-size);
+    max-width: var(--medal-size);
+    height: var(--medal-size);
+
+    position: relative;
+    cursor: pointer;
+
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition-duration: .3s;
+
+}
+
+div.viewer div {
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.viewer div.back {
+    transform: rotateY(180deg);
+}
+
+div.viewer div.inner {
+    width: calc(var(--medal-size) - 60px);
+    height: calc(var(--medal-size) - 60px);
+    border-radius: 50%;
+    background-color: antiquewhite;
+    
+}
+div.viewer div.outer {
+    width: var(--medal-size);
+    height: var(--medal-size);
+    background-color: #333;
+
+}
+
+div.viewer.flip {
+    transform: rotate(0deg);
+}

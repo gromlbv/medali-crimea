@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+    --medal-size: 200px;
+    --small-medal-size: 100px;
+    --constructor-height: 500px;
+
+    height: var(--constructor-height);
+}
+
+*{
+    -webkit-tap-highlight-color: #00000000;
+    font-family: "Inter", sans-serif;
+}
+
+div.constructor {
+    height: var(--constructor-height);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.hidden {
+    display: none;
+}
+.hidde {
+    opacity: 0;
+    z-index: -1;
+}

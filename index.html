@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/viewer.css">
+    <link rel="stylesheet" href="css/params.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="constructor">
+        <div class="viewer-wrapper">
+            <p>Предпросмотр</p>
+            
+            <div class="viewer" onclick="flip()">
+                <div class="front">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                </div>
+                <div class="back">
+                    <div class="outer"></div>
+                    <div class="inner"></div>
+                </div>
+            </div>
+        </div>
+        <div class="params">
+            <div class="side front">
+                <p>Выберите переднюю сторону</p>
+                <div class="part outer">
+                    <div class="medal"><div class="inner"></div></div>
+                    <div class="list"></div>
+                </div>
+                <div class="part inner">
+                    <div class="medal"><div class="inner"></div></div>
+                    <div class="list"></div>
+                </div>
+            </div>
+
+            <div class="side back hidde">
+                <p>Выберите заднюю сторону</p>
+                <div class="part outer">
+                    <div class="medal"><div class="inner"></div></div>
+                    <div class="list"></div>
+                </div>
+                <div class="part inner">
+                    <div class="medal"><div class="inner"></div></div>
+                    <div class="list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

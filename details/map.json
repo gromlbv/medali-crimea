@@ -1,0 +1,21 @@
+{
+    "back": {
+        "inner": {
+            "1671757779_kartinkin-net-p-krasivie-kvadratnie-kartinki-krasivo-8.jpg": "details/back/inner/1671757779_kartinkin-net-p-krasivie-kvadratnie-kartinki-krasivo-8.jpg"
+        },
+        "outer": {
+            "1671757791_kartinkin-net-p-krasivie-kvadratnie-kartinki-krasivo-7.jpg": "details/back/outer/1671757791_kartinkin-net-p-krasivie-kvadratnie-kartinki-krasivo-7.jpg"
+        }
+    },
+    "front": {
+        "inner": {
+            "1671757822_kartinkin-net-p-krasivie-kvadratnie-kartinki-krasivo-4.jpg": "details/front/inner/1671757822_kartinkin-net-p-krasivie-kvadratnie-kartinki-krasivo-4.jpg"
+        },
+        "outer": {
+            "potolochnyy-svetodiodnyy-svetilnik-inline-10w-3000k-belyy-khrom-25091-led-a064615-0001.jpg": "details/front/outer/potolochnyy-svetodiodnyy-svetilnik-inline-10w-3000k-belyy-khrom-25091-led-a064615-0001.jpg"
+        }
+    },
+    "full": {},
+    "map.json": "details/map.json",
+    "map.py": "details/map.py"
+}
