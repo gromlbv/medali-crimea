@@ -51,8 +51,8 @@ div.viewer div.back {
 }
 
 div.viewer div.inner {
-    width: calc(var(--medal-size) - 60px);
-    height: calc(var(--medal-size) - 60px);
+    width: calc(var(--medal-size)*0.7);
+    height: calc(var(--medal-size)*0.7);
     border-radius: 50%;
     background-color: antiquewhite;
     

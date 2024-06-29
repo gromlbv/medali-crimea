@@ -38,11 +38,12 @@ div.params div.medal {
 }
 
 div.params div.part div.medal div.inner {
-    width: calc(var(--small-medal-size) - 35px);
-    height: calc(var(--small-medal-size) - 35px);
+    width: calc(var(--small-medal-size)*0.68);
+    height: calc(var(--small-medal-size)*0.68);
 
     background-color: antiquewhite;
     border-radius: 50%;
+    box-sizing: border-box;
 
     position: absolute;
     top: 50%;
@@ -74,8 +75,8 @@ div.params div.outer div.medal::after {
     border: 5px solid #ffe49d;
     background-color: #fff6e2;
 
-    width: calc(var(--small-medal-size) - 35px);
-    height: calc(var(--small-medal-size) - 35px);
+    width: calc(var(--small-medal-size)*0.68);
+    height: calc(var(--small-medal-size)*0.68);
 
     position: absolute;
     top: 50%;
@@ -84,4 +85,23 @@ div.params div.outer div.medal::after {
 
     border-radius: 50%;
 
+}
+
+div.list {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    overflow: hidden;
+    margin-left: 5px;
+    position: relative;
+}
+div.list img {
+    width: var(--small-medal-size);
+    height: var(--small-medal-size);
+
+    border-radius: 50%;
+    margin: 0 5px;
+}
+div.list img:last-child {
+    margin-right: 100%;
 }

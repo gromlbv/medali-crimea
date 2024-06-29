@@ -2,7 +2,7 @@
 
 html {
     --medal-size: 200px;
-    --small-medal-size: 100px;
+    --small-medal-size: 150px;
     --constructor-height: 500px;
 
     height: var(--constructor-height);
